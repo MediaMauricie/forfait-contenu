@@ -93,7 +93,8 @@ a{color:inherit;text-decoration:none;}
 .opt-price{font-size:14px;font-weight:800;color:#2d2d2d;white-space:nowrap;}
 .opt-price.sm{font-size:11px;font-weight:600;color:#aaa;}
 .opt-cta{padding:0 18px 16px;}
-.opt-btn{display:block;background:#2d2d2d;color:#fff;font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:8px 14px;border-radius:6px;text-align:center;text-decoration:none;}
+.opt-btn{display:block;background:#2d2d2d;color:#fff !important;font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:8px 14px;border-radius:6px;text-align:center;text-decoration:none;}
+.opt-btn:hover{background:#1a1a1a !important;}
 .transport{background:#fff;border:1.5px solid #e0e0e0;border-radius:14px;overflow:hidden;margin-bottom:14px;display:grid;grid-template-columns:1fr 1fr;}
 .transport-info{padding:24px 26px;display:flex;flex-direction:column;justify-content:center;gap:14px;}
 .transport-badge{background:#2d2d2d;color:#fff;font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:5px 14px;border-radius:20px;display:inline-block;align-self:flex-start;}
@@ -113,7 +114,8 @@ a{color:inherit;text-decoration:none;}
 .mel-badge{background:#fff;border:2px solid #2d2d2d;border-radius:12px;padding:16px 20px;text-align:center;}
 .mel-amount{font-size:30px;font-weight:800;color:#2d2d2d;line-height:1;}
 .mel-badge-label{font-size:9px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:#666;margin-top:4px;}
-.mel-btn{display:inline-block;background:#fff;color:#2d2d2d;font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:9px 18px;border-radius:7px;text-decoration:none;white-space:nowrap;}
+.mel-btn{display:inline-block;background:#fff;color:#2d2d2d !important;font-size:9px;font-weight:800;letter-spacing:1.5px;text-transform:uppercase;padding:9px 18px;border-radius:7px;text-decoration:none;white-space:nowrap;}
+.mel-btn:hover{background:#e8e8e8 !important;}
 .mel-steps{background:rgba(255,255,255,0.05);border-top:1px solid rgba(255,255,255,0.08);padding:18px 28px;display:flex;gap:16px;}
 .mel-step{flex:1;display:flex;align-items:flex-start;gap:10px;font-size:10.5px;font-weight:500;color:rgba(255,255,255,0.6);line-height:1.55;}
 .mel-num{background:#fff;color:#2d2d2d;font-size:9px;font-weight:800;width:20px;height:20px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;margin-top:1px;}
@@ -135,35 +137,24 @@ a{color:inherit;text-decoration:none;}
 .note-bloc.dark .note-item strong,.note-bloc.mid .note-item strong{color:#fff;}
 .note-bloc.light .note-item strong{color:#2d2d2d;}
 .note-link{color:#e87060 !important;}
+.note-link:hover{color:#e87060 !important;text-decoration:underline;}
 .clauses{background:#fff;border:1.5px solid #e0e0e0;border-radius:14px;padding:20px 24px;margin-bottom:14px;}
 .clauses-label{font-size:8px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#aaa;margin-bottom:12px;}
 .clause-item{display:flex;align-items:flex-start;gap:8px;font-size:11px;color:#555;line-height:1.6;padding:8px 0;border-bottom:1px solid #f0f0f0;}
 .clause-item:last-child{border-bottom:none;}
 .clause-item strong{color:#2d2d2d;}
-.table-wrap{background:#fff;border:1.5px solid #e0e0e0;border-radius:14px;overflow:hidden;margin-bottom:14px;}
-table{width:100%;border-collapse:collapse;}
-th{background:#2d2d2d;color:#fff;font-size:9px;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:12px 16px;text-align:center;}
-th:first-child{text-align:left;background:#1a1a1a;}
-th.pro-col{border-left:3px solid #c0392b;}
-tr{border-bottom:1px solid #f0f0f0;}
-tr:last-child{border-bottom:none;}
-tr:nth-child(even){background:#fafafa;}
-td{padding:10px 16px;font-size:11px;font-weight:600;color:#2d2d2d;}
-td:not(:first-child){text-align:center;font-size:13px;}
-td.pro-col{border-left:3px solid #c0392b;}
-.check{color:#27ae60;font-weight:800;}
-.cross{color:#ddd;font-size:10px;}
-.green-row td{color:#1a7a4a;font-weight:700;}
-.green-row{background:#eafaf2 !important;}
-tfoot td{padding:12px 16px;background:#2d2d2d;color:rgba(255,255,255,0.5);font-size:10px;font-weight:600;}
-tfoot .tfoot-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;}
-tfoot .tfoot-btn{display:inline-block;background:#fff;color:#2d2d2d;font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase;padding:6px 14px;border-radius:5px;text-decoration:none;white-space:nowrap;}
 .taxes{background:#2d2d2d;color:rgba(255,255,255,0.4);font-size:10px;font-weight:600;text-align:center;padding:10px 20px;border-radius:8px;margin-bottom:12px;}
 .taxes strong{color:rgba(255,255,255,0.75);}
 .footer{padding-top:22px;border-top:1.5px solid #ddd;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;margin-bottom:48px;}
 .footer img{height:32px;}
 .footer-info{font-size:10px;font-weight:500;color:#aaa;text-align:right;line-height:1.8;}
-.footer-info a{color:#555;font-weight:700;}
+.footer-info a{color:#555 !important;font-weight:700;}
+.footer-info a:hover{text-decoration:underline;}
+a:hover{color:inherit;}
+.items a{color:#c0392b !important;}
+.items a:hover{color:#c0392b !important;text-decoration:underline;}
+td a{color:#fff !important;}
+td a:hover{opacity:.85;color:#fff !important;}
 @media(max-width:700px){
   .plans,.engage-grid,.delais,.options,.recap-grid{grid-template-columns:1fr;}
   .transport{grid-template-columns:1fr;}
@@ -175,84 +166,10 @@ tfoot .tfoot-btn{display:inline-block;background:#fff;color:#2d2d2d;font-size:9p
   .header{flex-direction:column;align-items:flex-start;gap:12px;}
   .footer{flex-direction:column;align-items:flex-start;}
   .footer-info{text-align:left;}
-  .delai-time{font-size:18px;}
-  .delai-items li{font-size:10px;}
-  .dp{font-size:11px;}
-  .opt-row{flex-wrap:nowrap;}
-  .opt-name{font-size:10.5px;}
-  .opt-price{font-size:13px;white-space:nowrap;}
-  .plans-cta{grid-template-columns:1fr !important;}
   .plan-price{font-size:32px;}
   .plan-price-row{flex-wrap:wrap;gap:4px;}
+  .plans-cta{grid-template-columns:1fr !important;}
 }
-@media(max-width:500px){
-  .delais,.options,.engage-grid{grid-template-columns:1fr;}
-  .wrap{padding:20px 14px 48px;}
-  .plan-head{padding:16px 16px 12px;}
-  .plan-body{padding:0 16px 18px;}
-  .eng-head{padding:12px 14px;}
-  .eng-body{padding:12px 14px;}
-  .opt-head{padding:12px 14px;}
-  .opt-body{padding:12px 14px;}
-  .opt-cta{padding:0 14px 14px;}
-  .delai-head{padding:14px 14px;}
-  .delai-body{padding:12px 14px;}
-  .note-bloc{padding:16px 16px;}
-  .process-box{padding:18px 16px;}
-  .partenaire{padding:16px 14px;}
-  .inclus-strip{padding:12px 14px;}
-  .clauses{padding:14px 16px;}
-  .mel-hero{padding:20px 16px 16px;}
-  .mel-steps{padding:14px 16px;}
-}
-
-/* ── FORM SECTION ── */
-.form-section{background:#fff;border:1.5px solid #e0e0e0;border-radius:14px;padding:28px 28px 0 28px;margin-bottom:12px;}
-.form-eyebrow{font-size:9px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:#c0392b;margin-bottom:8px;}
-.form-title{font-size:20px;font-weight:800;color:#2d2d2d;letter-spacing:-0.5px;margin-bottom:8px;}
-.form-sub{font-size:12px;font-weight:500;color:#666;line-height:1.75;margin-bottom:0;max-width:560px;}
-.form-sub strong{color:#2d2d2d;}
-@media(max-width:700px){.form-section{padding:22px 16px 0 16px;}}
-
-/* ═══════════════════════════════════════════════════
-   HOVER FIXES — couleurs préservées au survol
-   Le problème : a{color:inherit} sans :hover explicite
-   laisse le navigateur appliquer bleu/violet par défaut
-   ═══════════════════════════════════════════════════ */
-a:hover{color:inherit;}
-
-/* Boutons .opt-btn — fond #2d2d2d, texte blanc */
-.opt-btn{color:#fff !important;}
-.opt-btn:hover{background:#1a1a1a !important;color:#fff !important;}
-
-/* Boutons tfoot — fond blanc, texte #2d2d2d */
-tfoot .tfoot-btn{color:#2d2d2d !important;}
-tfoot .tfoot-btn:hover{background:#e8e8e8 !important;color:#2d2d2d !important;}
-
-/* Bouton MEL — fond blanc sur dark, texte #2d2d2d */
-.mel-btn{color:#2d2d2d !important;}
-.mel-btn:hover{background:#e8e8e8 !important;color:#2d2d2d !important;}
-
-/* Boutons inline dans les td (style inline avec background:#2d2d2d) */
-td a{color:#fff !important;}
-td a:hover{opacity:.85;color:#fff !important;}
-
-/* Liens item-link — rouge */
-.item-link a{color:#c0392b !important;}
-.item-link a:hover{color:#c0392b !important;text-decoration:underline;}
-
-/* Liens note-link — rouge clair sur dark bg */
-.note-link{color:#e87060 !important;}
-.note-link:hover{color:#e87060 !important;text-decoration:underline;}
-
-/* Liens footer */
-.footer-info a{color:#555 !important;}
-.footer-info a:hover{color:#555 !important;text-decoration:underline;}
-
-/* Liens inline dans .items (style="color:#c0392b") */
-.items a{color:#c0392b !important;}
-.items a:hover{color:#c0392b !important;text-decoration:underline;}
-
 </style>
 </head><body>
 <div class="wrap">
@@ -291,11 +208,21 @@ td a:hover{opacity:.85;color:#fff !important;}
         <li><span class="ci">✓</span>Musique sous licence — banque Média Mauricie disponible</li>
         <li><span class="ci">✓</span><span>📸 Photos remises sur <strong>album Pixpa privé</strong> — accès jusqu'à la fin du contrat<br><span style="display:inline-block;">🎬 Vidéos & reels remis sur <strong>Dropbox</strong> avec image de couverture suggérée</span></span></li>
         <li><span class="ci">✓</span>Rencontre de planification 30 min incluse</li>
-        <li><span class="ci">✓</span><span>Espace client <strong>ClickUp</strong> inclus — approbations, suivi des révisions & communications centralisées<br><span style="font-size:10px;color:#aaa;">Optimise le temps, les échanges et l'expérience pour tous</span><br><span style="font-size:10px;color:#c0392b;font-weight:600;">+ Calendrier de contenu partagé inclus si forfait <a href="https://www.mediamauricie.com/gestion-reseaux-sociaux" target="_blank" style="color:#c0392b;font-weight:700;">publications réseaux sociaux</a> jumelé</span></span></li>
+        <li><span class="ci">✓</span><span>Espace client <strong>ClickUp</strong> inclus — approbations, suivi des révisions & communications centralisées<span style="display:block;font-size:10px;color:#aaa;margin-top:2px;">Optimise le temps, les échanges et l'expérience pour tous</span></span></li>
       </ul>
+      <div style="margin-top:4px;border-top:2px solid #ebebeb;padding-top:14px;">
+        <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#bbb;margin-bottom:10px;">Avantages fidélité</div>
+        <div style="display:flex;align-items:flex-start;gap:10px;padding:7px 0;border-bottom:1px solid #f2f2f2;">
+          <div style="flex-shrink:0;width:26px;height:26px;border-radius:50%;background:#2d2d2d;color:#fff;font-size:8px;font-weight:800;display:flex;align-items:center;justify-content:center;">6m</div>
+          <div style="font-size:11px;font-weight:700;color:#2d2d2d;line-height:1.35;">×2 photos / mois & +2 reels bonus<span style="color:#888;font-weight:500;display:block;font-size:10px;">Engagement 6 mois · 50 photos / mois · reels à produire pendant l'engagement</span></div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;padding:7px 0;">
+          <div style="flex-shrink:0;width:26px;height:26px;border-radius:50%;background:#c0392b;color:#fff;font-size:8px;font-weight:800;display:flex;align-items:center;justify-content:center;">12m</div>
+          <div style="font-size:11px;font-weight:700;color:#2d2d2d;line-height:1.35;">🎁 1 mois complet gratuit<span style="color:#888;font-weight:500;display:block;font-size:10px;">Engagement 12 mois · valeur 2 000$ + tx</span></div>
+        </div>
+      </div>
     </div>
   </div>
-
   <div class="plan pro">
     <div class="plan-head">
       <div class="plan-badge">Forfait Pro ★</div>
@@ -316,26 +243,30 @@ td a:hover{opacity:.85;color:#fff !important;}
         <li><span class="ci">✓</span>Musique sous licence — banque Média Mauricie disponible</li>
         <li><span class="ci">✓</span><span>📸 Photos remises sur <strong>album Pixpa privé</strong> — accès jusqu'à la fin du contrat<br><span style="display:inline-block;">🎬 Vidéos & reels remis sur <strong>Dropbox</strong> avec image de couverture suggérée</span></span></li>
         <li><span class="ci">✓</span>Rencontre de planification 30 min incluse</li>
-        <li><span class="ci">✓</span><span>Espace client <strong>ClickUp</strong> inclus — approbations, suivi des révisions & communications centralisées<br><span style="font-size:10px;color:#aaa;">Optimise le temps, les échanges et l'expérience pour tous</span><br><span style="font-size:10px;color:#c0392b;font-weight:600;">+ Calendrier de contenu partagé inclus si forfait <a href="https://www.mediamauricie.com/gestion-reseaux-sociaux" target="_blank" style="color:#c0392b;font-weight:700;">publications réseaux sociaux</a> jumelé</span></span></li>
+        <li><span class="ci">✓</span><span>Espace client <strong>ClickUp</strong> inclus — approbations, suivi des révisions & communications centralisées<span style="display:block;font-size:10px;color:#aaa;margin-top:2px;">Optimise le temps, les échanges et l'expérience pour tous</span></span></li>
       </ul>
+      <div style="margin-top:4px;border-top:2px solid #ebebeb;padding-top:14px;">
+        <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#bbb;margin-bottom:10px;">Avantages fidélité</div>
+        <div style="display:flex;align-items:flex-start;gap:10px;padding:7px 0;border-bottom:1px solid #f2f2f2;">
+          <div style="flex-shrink:0;width:26px;height:26px;border-radius:50%;background:#2d2d2d;color:#fff;font-size:8px;font-weight:800;display:flex;align-items:center;justify-content:center;">6m</div>
+          <div style="font-size:11px;font-weight:700;color:#2d2d2d;line-height:1.35;">×2 photos / mois & +4 reels bonus<span style="color:#888;font-weight:500;display:block;font-size:10px;">Engagement 6 mois · 100 photos / mois · reels à produire pendant l'engagement</span></div>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;padding:7px 0;">
+          <div style="flex-shrink:0;width:26px;height:26px;border-radius:50%;background:#c0392b;color:#fff;font-size:8px;font-weight:800;display:flex;align-items:center;justify-content:center;">12m</div>
+          <div style="font-size:11px;font-weight:700;color:#2d2d2d;line-height:1.35;">🎁 1 mois complet gratuit<span style="color:#888;font-weight:500;display:block;font-size:10px;">Engagement 12 mois · valeur 3 500$ + tx</span></div>
+        </div>
+      </div>
     </div>
   </div>
 
 </div>
 
-<!-- BOUTONS SOUS LES PLANS -->
-<div class="plans-cta" style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:28px;">
-  <a href="https://www.mediamauricie.com/banques-dheures" target="_blank" style="display:flex;align-items:center;justify-content:space-between;background:#2d2d2d;color:#fff !important;text-decoration:none;padding:16px 20px;border-radius:10px;">
-    <div>
-      <div style="font-size:8px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.45);margin-bottom:4px;">Option complémentaire</div>
-      <div style="font-size:13px;font-weight:800;color:#fff;">Voir nos banques d'heures de montage</div>
-    </div>
-    <div style="font-size:20px;color:rgba(255,255,255,.5);flex-shrink:0;margin-left:12px;">→</div>
-  </a>
-  <a href="https://www.mediamauricie.com/gestion-reseaux-sociaux" target="_blank" style="display:flex;align-items:center;justify-content:space-between;background:#c0392b;color:#fff !important;text-decoration:none;padding:16px 20px;border-radius:10px;">
+<!-- BOUTON BANQUES D'HEURES SEULEMENT -->
+<div style="margin-bottom:28px;">
+  <a href="https://www.mediamauricie.com/banques-dheures" target="_blank" style="display:flex;align-items:center;justify-content:space-between;background:#c0392b;color:#fff !important;text-decoration:none;padding:16px 20px;border-radius:10px;">
     <div>
       <div style="font-size:8px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.55);margin-bottom:4px;">Option complémentaire</div>
-      <div style="font-size:13px;font-weight:800;color:#fff;">Voir nos forfaits réseaux sociaux</div>
+      <div style="font-size:13px;font-weight:800;color:#fff;">Plus de montages? À la carte via nos banques d'heures</div>
     </div>
     <div style="font-size:20px;color:rgba(255,255,255,.5);flex-shrink:0;margin-left:12px;">→</div>
   </a>
@@ -343,68 +274,7 @@ td a:hover{opacity:.85;color:#fff !important;}
 
 <div class="photos-note">📸 <strong>Photos lifestyle incluses :</strong> portraits sur place, ambiance de travail, équipe en action, environnement, extérieur & drone.<span class="sep">Sur soumission séparée : photos de produits, portraits studio formels, photos d'équipe structurées, conférences de presse, immobilier, culinaire.</span></div>
 
-<div class="eyebrow">Durée d'engagement — mêmes tarifs, bonus croissants</div>
-<div class="engage-grid">
-
-  <div class="eng-card">
-    <div class="eng-head"><div class="eng-tag">Minimum requis</div><div class="eng-dur">3 mois</div></div>
-    <div class="eng-body">
-      <div class="eng-plan">
-        <div class="eng-label">Forfait Essentiel</div>
-        <div class="eng-price-row"><span class="eng-price">2 000$</span><span class="eng-unit">/ mois + tx</span></div>
-        <div class="eng-none">Tarif standard — aucun bonus</div>
-      </div>
-      <div class="eng-plan">
-        <div class="eng-label">Forfait Pro</div>
-        <div class="eng-price-row"><span class="eng-price">3 500$</span><span class="eng-unit">/ mois + tx</span></div>
-        <div class="eng-none">Tarif standard — aucun bonus</div>
-      </div>
-      <div class="billing-label">Facturation</div>
-      <div class="billing-text">2 mois à la signature · dernier mois en fin de contrat</div>
-    </div>
-  </div>
-
-  <div class="eng-card">
-    <div class="eng-head"><div class="eng-tag">Populaire</div><div class="eng-dur">6 mois</div></div>
-    <div class="eng-body">
-      <div class="eng-plan">
-        <div class="eng-label">Forfait Essentiel</div>
-        <div class="eng-price-row"><span class="eng-price">2 000$</span><span class="eng-unit">/ mois + tx</span></div>
-        <div class="eng-bonus-item"><span class="eng-icon">✦</span><span>+2 reels <strong>bonus produits</strong> au 6e mois<span class="eng-val">valeur estimée 400–800$ · non inclus dans le forfait</span></span></div>
-      </div>
-      <div class="eng-plan">
-        <div class="eng-label">Forfait Pro</div>
-        <div class="eng-price-row"><span class="eng-price">3 500$</span><span class="eng-unit">/ mois + tx</span></div>
-        <div class="eng-bonus-item"><span class="eng-icon">✦</span><span>+4 reels <strong>bonus produits</strong> au 6e mois<span class="eng-val">valeur estimée 800–1 600$ · non inclus dans le forfait</span></span></div>
-      </div>
-      <div class="billing-label">Facturation</div>
-      <div class="billing-text">2 mois à la signature · puis aux 2 mois</div>
-    </div>
-  </div>
-
-  <div class="eng-card best">
-    <div class="best-bar">★ Meilleure valeur — Engagement annuel</div>
-    <div class="eng-head"><div class="eng-tag">Engagement annuel</div><div class="eng-dur">12 mois</div></div>
-    <div class="eng-body">
-      <div class="eng-plan">
-        <div class="eng-label">Forfait Essentiel</div>
-        <div class="eng-price-row"><span class="eng-price">2 000$</span><span class="eng-unit">/ mois + tx</span></div>
-        <div class="eng-bonus-item"><span class="eng-icon">✦</span><span>+2 reels <strong>bonus produits</strong> au 6e mois<span class="eng-val">valeur estimée 400–800$ · non inclus dans le forfait</span></span></div>
-        <div class="eng-bonus-item"><span class="eng-icon">✦</span><span>+2 reels <strong>bonus produits</strong> au 12e mois<span class="eng-val">valeur estimée 400–800$ · non inclus dans le forfait</span></span></div>
-      </div>
-      <div class="eng-plan">
-        <div class="eng-label">Forfait Pro</div>
-        <div class="eng-price-row"><span class="eng-price">3 500$</span><span class="eng-unit">/ mois + tx</span></div>
-        <div class="free-box"><div class="free-title">🎁 1 MOIS COMPLET GRATUIT au 12e mois</div><div class="free-sub">Valeur 3 500$ + tx · Renouvellement recommence après</div></div>
-      </div>
-      <div class="billing-label">Facturation</div>
-      <div class="billing-text">2 mois à la signature · puis aux 2 mois jusqu'à la fin</div>
-    </div>
-  </div>
-
-</div>
-
-<div class="eyebrow">Délais de livraison</div>
+<div class="eyebrow" style="margin-top:8px;">Délais de livraison</div>
 <div class="delais">
   <div class="delai">
     <div class="delai-head"><div class="delai-label">Standard</div><div class="delai-time">10–20 jours ouvrables</div></div>
@@ -462,7 +332,7 @@ td a:hover{opacity:.85;color:#fff !important;}
     <div class="opt-body">
       <div class="opt-row"><div><div class="opt-name">Remise LOG — 2h</div><div class="opt-note">Tournage Essentiel</div></div><div class="opt-price">175$</div></div>
       <div class="opt-row"><div><div class="opt-name">Remise LOG — 4h</div><div class="opt-note">Tournage Pro</div></div><div class="opt-price">250$</div></div>
-      <div class="opt-row"><div><div class="opt-name" style="color:#888;">Colorisation équipe</div><div class="opt-note">Pour votre montage interne</div></div><div class="opt-price sm">Voir page</div></div>
+      <div class="opt-row"><div><div class="opt-name" style="color:#888;">Colorisation des fichiers</div><div class="opt-note">Sur demande — calculer via banques d'heures</div></div></div>
     </div>
     <div class="opt-cta"><a href="https://mediamauricie.com/remise-des-fichiers-bruts" target="_blank" class="opt-btn">Voir nos offres</a></div>
   </div>
@@ -485,7 +355,7 @@ td a:hover{opacity:.85;color:#fff !important;}
 <div class="footer">
   <img src="https://mediamauricie.com/wp-content/uploads/2026/03/Media-Mauricie_logo_coul.png" alt="Média Mauricie">
   <div class="footer-info">
-    <a href="https://www.mediamauricie.com">www.mediamauricie.com</a> · <a href="/cdn-cgi/l/email-protection#8de4e3ebe2cde0e8e9e4ece0ecf8ffe4eee4e8a3eee2e0"><span class="__cf_email__" data-cfemail="84edeae2ebc4e9e1e0ede5e9e5f1f6ede7ede1aae7ebe9">[email&#160;protected]</span></a> · (819) 852-0851<br>
+    <a href="https://www.mediamauricie.com">www.mediamauricie.com</a> · <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f990979f96b9949c9d909894988c8b909a909cd79a9694">[email&#160;protected]</a> · (819) 852-0851<br>
     © Média Mauricie Inc. 2026 · Prix sujets à changement
   </div>
 </div>
@@ -495,7 +365,7 @@ td a:hover{opacity:.85;color:#fff !important;}
     <div class="mel-left">
       <div class="mel-eyebrow">✨ Offre exclusive · Plateforme régionale</div>
       <div class="mel-title">Mauricie en lumière ✨</div>
-      <div class="mel-desc">Vos photos rejoignent une banque de visuels professionnels accessible aux médias, entreprises et organismes de la Mauricie. <strong>Aucun effort de votre part</strong> — notre équipe sélectionne les images. Une simple décharge suffit.</div>
+      <div class="mel-desc">Vos photos rejoignent une banque de visuels professionnels accessible aux médias, entreprises et organismes de la Mauricie. <strong>Signature d'une décharge requise</strong> — notre équipe ajoute une sélection d'images à la plateforme.</div>
     </div>
     <div class="mel-right">
       <div class="mel-badge"><div class="mel-amount">−50$</div><div class="mel-badge-label">/ mois sur votre forfait</div></div>
@@ -530,7 +400,7 @@ td a:hover{opacity:.85;color:#fff !important;}
   <div class="note-bloc mid">
     <div class="note-bloc-title">Droits & licences</div>
     <div class="note-grid">
-      <div class="note-item"><span class="ni">✓</span><span><strong>Droits commerciaux illimités</strong> — réseaux sociaux, pub payante, web, affichage, imprimé. Média Mauricie conserve le droit de portfolio. <a href="https://mediamauricie.com/remise-des-fichiers-bruts" target="_blank" class="note-link">Conditions complètes →</a></span></div>
+      <div class="note-item"><span class="ni">✓</span><span><strong>Droits commerciaux illimités</strong> — réseaux sociaux, pub payante, web, affichage, imprimé. Média Mauricie conserve le droit d'auteur. <a href="https://mediamauricie.com/remise-des-fichiers-bruts" target="_blank" class="note-link">Conditions complètes →</a></span></div>
       <div class="note-item"><span class="ni">✓</span><span><strong>Musique sous licence</strong> banque Média Mauricie incluse. Musique client acceptée — droits & licences à sa charge.</span></div>
       <div class="note-item"><span class="ni">✓</span><span><strong>Fichiers bruts LOG</strong> disponibles séparément. <a href="https://mediamauricie.com/remise-des-fichiers-bruts" target="_blank" class="note-link">Voir offres →</a></span></div>
     </div>
@@ -541,7 +411,6 @@ td a:hover{opacity:.85;color:#fff !important;}
       <div class="note-item"><span class="ni">✓</span><span><strong>Drone :</strong> inclus selon les conditions météo, réglementations Transport Canada et la nature du tournage. Permis zone avancée sur demande.</span></div>
       <div class="note-item"><span class="ni">✓</span><span><strong>Assurances :</strong> responsabilité civile professionnelle complète — photo, vidéo & drone (police distincte).</span></div>
       <div class="note-item"><span class="ni">✓</span><span><strong>Permis de tournage :</strong> autorisations spéciales à la charge du client.</span></div>
-      <div class="note-item"><span class="ni">✓</span><span><strong>Accès au site & coordination</strong> avec le personnel sur place — à la charge du client.</span></div>
     </div>
   </div>
 </div>
@@ -550,21 +419,18 @@ td a:hover{opacity:.85;color:#fff !important;}
   <div class="clauses-label">Clauses spécifiques — Clients hors zone / longue distance</div>
   <div class="clause-item"><span class="ni">→</span><span><strong>Déplacement hors zone :</strong> +1$/km A/R. Facturé séparément ou intégré à la soumission.</span></div>
   <div class="clause-item"><span class="ni">→</span><span><strong>Hébergement & repas :</strong> entente séparée pour tournages nécessitant une nuitée.</span></div>
-  <div class="clause-item"><span class="ni">→</span><span><strong>Accès au site :</strong> coordination et accès aux installations à la charge du client.</span></div>
   <div class="clause-item"><span class="ni">→</span><span><strong>Événements saisonniers :</strong> demandes spéciales à communiquer lors de la rencontre de planification mensuelle.</span></div>
 </div>
 
 <div class="eyebrow">Tableau récapitulatif</div>
 <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px;" class="recap-grid">
-
-  <!-- Essentiel -->
   <div style="background:#fff;border:1.5px solid #e0e0e0;border-radius:14px;overflow:hidden;">
     <div style="background:#2d2d2d;padding:14px 18px;">
       <div style="font-size:8px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:6px;">Forfait</div>
       <div style="font-size:16px;font-weight:800;color:#fff;line-height:1.2;">Essentiel</div>
       <div style="font-size:20px;font-weight:800;color:#fff;letter-spacing:-1px;margin-top:2px;">2 000$ <span style="font-size:10px;font-weight:600;color:rgba(255,255,255,.45);">/ mois</span></div>
     </div>
-    <div style="padding:12px 18px;display:flex;flex-direction:column;gap:0;">
+    <div style="padding:12px 18px;">
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Photos HD retouchées</div><div style="font-size:13px;font-weight:800;color:#2d2d2d;">25 photos</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Reels cinématiques</div><div style="font-size:13px;font-weight:800;color:#2d2d2d;">3×15s ou 1×30s + 1×15s</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Tournage sur place</div><div style="font-size:13px;font-weight:800;color:#2d2d2d;">2h</div></div>
@@ -573,18 +439,16 @@ td a:hover{opacity:.85;color:#fff !important;}
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">ClickUp — gestion projet</div><div style="font-size:13px;font-weight:800;color:#27ae60;">✓ Inclus</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Révision mineure</div><div style="font-size:13px;font-weight:800;color:#27ae60;">✓ Inclus</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Montages additionnels</div><a href="https://www.mediamauricie.com/banques-dheures" target="_blank" style="display:inline-block;margin-top:4px;font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase;background:#2d2d2d;color:#fff !important;padding:5px 10px;border-radius:5px;text-decoration:none;">Banques d'heures →</a></div>
-      <div style="padding:10px 0;background:#eafaf2;border-radius:6px;margin-top:2px;padding:10px 10px;"><div style="font-size:10px;font-weight:600;color:#1a7a4a;margin-bottom:2px;">Transport Mauricie</div><div style="font-size:13px;font-weight:800;color:#1a7a4a;">✓ Inclus</div></div>
+      <div style="padding:10px 0;background:#eafaf2;border-radius:6px;margin-top:4px;padding:10px 10px;"><div style="font-size:10px;font-weight:600;color:#1a7a4a;margin-bottom:2px;">Transport Mauricie</div><div style="font-size:13px;font-weight:800;color:#1a7a4a;">✓ Inclus</div></div>
     </div>
   </div>
-
-  <!-- Pro -->
   <div style="background:#fff;border:1.5px solid #e0e0e0;border-top:3px solid #c0392b;border-radius:14px;overflow:hidden;">
     <div style="background:#2d2d2d;padding:14px 18px;">
       <div style="font-size:8px;font-weight:800;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.4);margin-bottom:6px;">Forfait</div>
       <div style="font-size:16px;font-weight:800;color:#fff;line-height:1.2;">Pro</div>
       <div style="font-size:20px;font-weight:800;color:#fff;letter-spacing:-1px;margin-top:2px;">3 500$ <span style="font-size:10px;font-weight:600;color:rgba(255,255,255,.45);">/ mois</span></div>
     </div>
-    <div style="padding:12px 18px;display:flex;flex-direction:column;gap:0;">
+    <div style="padding:12px 18px;">
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Photos HD retouchées</div><div style="font-size:13px;font-weight:800;color:#c0392b;">50 photos</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Reels cinématiques</div><div style="font-size:13px;font-weight:800;color:#c0392b;">4×15s & 1×30s</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Tournage sur place</div><div style="font-size:13px;font-weight:800;color:#c0392b;">4h</div></div>
@@ -593,22 +457,18 @@ td a:hover{opacity:.85;color:#fff !important;}
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">ClickUp — gestion projet</div><div style="font-size:13px;font-weight:800;color:#27ae60;">✓ Inclus</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Révision mineure</div><div style="font-size:13px;font-weight:800;color:#27ae60;">✓ Inclus</div></div>
       <div style="padding:10px 0;border-bottom:1px solid #f0f0f0;"><div style="font-size:10px;font-weight:600;color:#999;margin-bottom:2px;">Montages additionnels</div><a href="https://www.mediamauricie.com/banques-dheures" target="_blank" style="display:inline-block;margin-top:4px;font-size:9px;font-weight:800;letter-spacing:1px;text-transform:uppercase;background:#2d2d2d;color:#fff !important;padding:5px 10px;border-radius:5px;text-decoration:none;">Banques d'heures →</a></div>
-      <div style="padding:10px 0;background:#eafaf2;border-radius:6px;margin-top:2px;padding:10px 10px;"><div style="font-size:10px;font-weight:600;color:#1a7a4a;margin-bottom:2px;">Transport Mauricie</div><div style="font-size:13px;font-weight:800;color:#1a7a4a;">✓ Inclus</div></div>
+      <div style="padding:10px 0;background:#eafaf2;border-radius:6px;margin-top:4px;padding:10px 10px;"><div style="font-size:10px;font-weight:600;color:#1a7a4a;margin-bottom:2px;">Transport Mauricie</div><div style="font-size:13px;font-weight:800;color:#1a7a4a;">✓ Inclus</div></div>
     </div>
   </div>
-
 </div>
-<!-- Note engagement -->
+
 <div style="background:#2d2d2d;border-radius:8px;padding:10px 18px;margin-bottom:14px;font-size:10px;font-weight:600;color:rgba(255,255,255,.5);text-align:center;">
   Engagement min. 3 mois · + taxes applicables &nbsp;·&nbsp;
-  <a href="https://www.mediamauricie.com/banques-dheures" target="_blank" style="color:#fff !important;text-decoration:none;font-weight:800;">🎬 Banques d'heures →</a> &nbsp;·&nbsp;
-  <a href="https://www.mediamauricie.com/gestion-reseaux-sociaux" target="_blank" style="color:#fff !important;text-decoration:none;font-weight:800;">📱 Réseaux sociaux →</a>
+  <a href="https://www.mediamauricie.com/banques-dheures" target="_blank" style="color:#fff !important;text-decoration:none;font-weight:800;">🎬 Banques d'heures →</a>
 </div>
-
-
 
 <div class="taxes">Tous les prix <strong>+ taxes applicables</strong> · © Média Mauricie Inc. 2026</div>
 <div class="footer">
   <img src="https://mediamauricie.com/wp-content/uploads/2026/03/Media-Mauricie_logo_coul.png" alt="Média Mauricie">
   <div class="footer-info">
-    <a href="https://www.mediamauricie.com">www.mediamauricie.com</a> · <a href="/cdn-cgi/l/email-protection#3c55525a537c
+    <a href="https://www.mediamauricie.com">www.mediamauricie.com</a> · <a href="/cdn-cgi/l/em
